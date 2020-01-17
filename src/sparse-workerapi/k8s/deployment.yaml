@@ -1,0 +1,67 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: workerapi-app
+spec:
+  selector:
+    matchLabels:
+      app: workerapi-app
+  strategy:
+    type: RollingUpdate
+  replicas: 16
+  template:
+    metadata:
+      name: workerapi-app
+      labels:
+        name: workerapi-app
+        app: workerapi-app
+    spec:
+      containers:
+        - name: redis-container
+          image: redis
+          env:
+            - name: APP_ENV
+              value: development
+            - name: PORT
+              value: "6379"
+          ports:
+            - containerPort: 6379
+              name: http
+              protocol: TCP
+        - name: workerapi-container
+          image: thecml/sparse-workerapi:1.0
+          imagePullPolicy: Always
+          env:
+            - name: APP_ENV
+              value: development
+            - name: PORT
+              value: "8080"
+            - name: POD_IP
+              valueFrom:
+                fieldRef:
+                  fieldPath: status.podIP
+            - name: WEB_PORT
+              value: "8080"
+            - name: KUBERNETES_ENABLED
+              value: "1"
+            - name: TIME_OUT
+              value: "1"
+            - name: WORKER_API_LABEL
+              value: "app=workerapi-app"
+            - name: DEBUG_MODE
+              value: "0"
+            - name: POSTPROC_WEB_PORT
+              value: "8082"
+            - name: POSTPROC_API_LABEL
+              value: "app=postprocapi-app"
+          ports:
+            - containerPort: 8080
+              name: http
+              protocol: TCP
+          resources:
+            requests:
+              memory: "506314Ki"
+              cpu: "500m"
+            limits:
+              memory: "1012629Ki"
+              cpu: "1000m"

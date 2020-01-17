@@ -1,0 +1,47 @@
+{
+	"img30_PS5x5_K3": {
+		"timePerIteration": 45.846475,
+		"timePerOMP": 13.26185,
+		"timePerKSVD": 32.584624999999999
+	},
+	"img30_PS5x5_K5": {
+		"timePerIteration": 56.96285,
+		"timePerOMP": 22.892775,
+		"timePerKSVD": 34.070075
+	},
+	"img30_PS5x5_K7": {
+		"timePerIteration": 65.921,
+		"timePerOMP": 31.437075000000005,
+		"timePerKSVD": 34.483925
+	},
+	"img30_PS7x7_K3": {
+		"timePerIteration": 86.5043,
+		"timePerOMP": 15.913549999999998,
+		"timePerKSVD": 70.59075
+	},
+	"img30_PS7x7_K5": {
+		"timePerIteration": 94.666025,
+		"timePerOMP": 24.536624999999999,
+		"timePerKSVD": 70.1294
+	},
+	"img30_PS7x7_K7": {
+		"timePerIteration": 103.6286,
+		"timePerOMP": 35.156124999999999,
+		"timePerKSVD": 68.472475
+	},
+	"img30_PS9x9_K3": {
+		"timePerIteration": 200.736125,
+		"timePerOMP": 16.773000000000005,
+		"timePerKSVD": 183.963125
+	},
+	"img30_PS9x9_K5": {
+		"timePerIteration": 207.628575,
+		"timePerOMP": 29.221725,
+		"timePerKSVD": 178.40685000000003
+	},
+	"img30_PS9x9_K7": {
+		"timePerIteration": 221.59855,
+		"timePerOMP": 37.469775000000009,
+		"timePerKSVD": 184.128775
+	}
+}

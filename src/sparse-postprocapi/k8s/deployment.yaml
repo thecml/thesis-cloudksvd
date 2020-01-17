@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: postprocapi-app
+spec:
+  selector:
+    matchLabels:
+      app: postprocapi-app
+  strategy:
+    type: RollingUpdate
+  replicas: 1
+  template:
+    metadata:
+      name: postprocapi-app
+      labels:
+        name: postprocapi-app
+        app: postprocapi-app
+    spec:
+      containers:
+        - name: redis-container
+          image: redis
+          env:
+            - name: APP_ENV
+              value: development
+            - name: PORT
+              value: "6379"
+          ports:
+            - containerPort: 6379
+              name: http
+              protocol: TCP
+        - name: postprocapi-container
+          image: thecml/sparse-postprocapi:1.0
+          imagePullPolicy: Always
+          env:
+            - name: APP_ENV
+              value: development
+            - name: PORT
+              value: "8082"
+            - name: POD_IP
+              valueFrom:
+                fieldRef:
+                  fieldPath: status.podIP
+            - name: WEB_PORT
+              value: "8082"
+            - name: DEBUG_MODE
+              value: "1"
+          ports:
+            - containerPort: 8082
+              name: http
+              protocol: TCP

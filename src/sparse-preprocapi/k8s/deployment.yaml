@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: preprocapi-app
+spec:
+  selector:
+    matchLabels:
+      app: preprocapi-app
+  strategy:
+    type: RollingUpdate
+  replicas: 1
+  template:
+    metadata:
+      name: preprocapi-app
+      labels:
+        name: preprocapi-app
+        app: preprocapi-app
+    spec:
+      containers:
+        - name: preprocapi-container
+          image: thecml/sparse-preprocapi:1.0
+          imagePullPolicy: Always
+          env:
+            - name: APP_ENV
+              value: development
+            - name: PORT
+              value: "8081"
+            - name: PREPROC_WEB_PORT
+              value: "8081"
+            - name: WORKER_WEB_PORT
+              value: "8080"
+            - name: KUBERNETES_ENABLED
+              value: "1"
+            - name: WORKER_API_LABEL
+              value: "app=workerapi-app"
+            - name: DEBUG_MODE
+              value: "1"
+          ports:
+            - containerPort: 8081
+              name: http
+              protocol: TCP

@@ -1,0 +1,177 @@
+{
+	"P16_C0_Q200": {
+		"timePerIteration": 0.08271250000000001,
+		"timePerOMP": 0.0382375,
+		"timePerKSVD": 0.04447500000000001
+	},
+	"P16_C0_Q2000": {
+		"timePerIteration": 0.42684,
+		"timePerOMP": 0.3339025,
+		"timePerKSVD": 0.0929375
+	},
+	"P16_C0_Q20000": {
+		"timePerIteration": 3.7934937500000007,
+		"timePerOMP": 3.3131062499999994,
+		"timePerKSVD": 0.4803875000000013
+	},
+	"P16_C0_Q800": {
+		"timePerIteration": 0.20418374999999998,
+		"timePerOMP": 0.13747,
+		"timePerKSVD": 0.06671374999999996
+	},
+	"P16_C0_Q8000": {
+		"timePerIteration": 1.5289674999999997,
+		"timePerOMP": 1.3212924999999998,
+		"timePerKSVD": 0.20767499999999984
+	},
+	"P16_C1_Q200": {
+		"timePerIteration": 172.540075,
+		"timePerOMP": 0.09457375000000003,
+		"timePerKSVD": 172.44550125
+	},
+	"P16_C1_Q2000": {
+		"timePerIteration": 175.80929125,
+		"timePerOMP": 0.71268375,
+		"timePerKSVD": 175.0966075
+	},
+	"P16_C1_Q20000": {
+		"timePerIteration": 189.29841875000003,
+		"timePerOMP": 5.91861875,
+		"timePerKSVD": 183.37980000000003
+	},
+	"P16_C1_Q800": {
+		"timePerIteration": 169.769165,
+		"timePerOMP": 0.32537625,
+		"timePerKSVD": 169.44378874999999
+	},
+	"P16_C1_Q8000": {
+		"timePerIteration": 177.037645,
+		"timePerOMP": 2.5981849999999997,
+		"timePerKSVD": 174.43946
+	},
+	"P1_C0_Q200": {
+		"timePerIteration": 0.4565200000000002,
+		"timePerOMP": 0.37419999999999989,
+		"timePerKSVD": 0.08232000000000034
+	},
+	"P1_C0_Q2000": {
+		"timePerIteration": 4.203079999999997,
+		"timePerOMP": 3.683200000000001,
+		"timePerKSVD": 0.5198799999999961
+	},
+	"P1_C0_Q20000": {
+		"timePerIteration": 43.69605,
+		"timePerOMP": 36.827999999999999,
+		"timePerKSVD": 6.868050000000004
+	},
+	"P1_C0_Q800": {
+		"timePerIteration": 1.71176,
+		"timePerOMP": 1.4938399999999999,
+		"timePerKSVD": 0.2179200000000001
+	},
+	"P1_C0_Q8000": {
+		"timePerIteration": 16.99174,
+		"timePerOMP": 14.652640000000009,
+		"timePerKSVD": 2.3390999999999915
+	},
+	"P4_C0_Q200": {
+		"timePerIteration": 0.15119500000000003,
+		"timePerOMP": 0.10101500000000002,
+		"timePerKSVD": 0.05018
+	},
+	"P4_C0_Q2000": {
+		"timePerIteration": 1.0892600000000002,
+		"timePerOMP": 0.92893,
+		"timePerKSVD": 0.16033000000000009
+	},
+	"P4_C0_Q20000": {
+		"timePerIteration": 10.881637500000002,
+		"timePerOMP": 9.238375000000002,
+		"timePerKSVD": 1.6432625000000006
+	},
+	"P4_C0_Q800": {
+		"timePerIteration": 0.4641499999999999,
+		"timePerOMP": 0.3791449999999999,
+		"timePerKSVD": 0.085005
+	},
+	"P4_C0_Q8000": {
+		"timePerIteration": 4.19708,
+		"timePerOMP": 3.7019399999999997,
+		"timePerKSVD": 0.49514000000000016
+	},
+	"P4_C1_Q200": {
+		"timePerIteration": 24.985784999999998,
+		"timePerOMP": 0.16948999999999998,
+		"timePerKSVD": 24.816294999999998
+	},
+	"P4_C1_Q2000": {
+		"timePerIteration": 28.674449999999998,
+		"timePerOMP": 1.606395,
+		"timePerKSVD": 27.068054999999999
+	},
+	"P4_C1_Q20000": {
+		"timePerIteration": 44.648887499999997,
+		"timePerOMP": 12.617225,
+		"timePerKSVD": 32.031662499999999
+	},
+	"P4_C1_Q800": {
+		"timePerIteration": 26.373835000000005,
+		"timePerOMP": 0.662525,
+		"timePerKSVD": 25.711310000000006
+	},
+	"P4_C1_Q8000": {
+		"timePerIteration": 34.32124000000001,
+		"timePerOMP": 5.481679999999999,
+		"timePerKSVD": 28.839560000000014
+	},
+	"P8_C0_Q200": {
+		"timePerIteration": 0.11356250000000001,
+		"timePerOMP": 0.0634425,
+		"timePerKSVD": 0.05012000000000001
+	},
+	"P8_C0_Q2000": {
+		"timePerIteration": 0.69899,
+		"timePerOMP": 0.5812824999999999,
+		"timePerKSVD": 0.11770750000000008
+	},
+	"P8_C0_Q20000": {
+		"timePerIteration": 6.651224999999999,
+		"timePerOMP": 5.7828,
+		"timePerKSVD": 0.8684249999999993
+	},
+	"P8_C0_Q800": {
+		"timePerIteration": 0.31651749999999997,
+		"timePerOMP": 0.23932250000000003,
+		"timePerKSVD": 0.07719499999999993
+	},
+	"P8_C0_Q8000": {
+		"timePerIteration": 2.6232125,
+		"timePerOMP": 2.31621,
+		"timePerKSVD": 0.3070025000000003
+	},
+	"P8_C1_Q200": {
+		"timePerIteration": 75.9491575,
+		"timePerOMP": 0.1259075,
+		"timePerKSVD": 75.82325
+	},
+	"P8_C1_Q2000": {
+		"timePerIteration": 75.27645249999999,
+		"timePerOMP": 1.0620524999999999,
+		"timePerKSVD": 74.2144
+	},
+	"P8_C1_Q20000": {
+		"timePerIteration": 94.00663749999998,
+		"timePerOMP": 9.8520375,
+		"timePerKSVD": 84.15459999999999
+	},
+	"P8_C1_Q800": {
+		"timePerIteration": 74.64544,
+		"timePerOMP": 0.44070750000000005,
+		"timePerKSVD": 74.20473249999999
+	},
+	"P8_C1_Q8000": {
+		"timePerIteration": 82.023305,
+		"timePerOMP": 4.18411,
+		"timePerKSVD": 77.83919499999999
+	}
+}

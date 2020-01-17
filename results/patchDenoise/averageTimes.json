@@ -1,0 +1,137 @@
+{
+	"face_K3_5x5_C1_sig0001": {
+		"timePerIteration": 43.550475,
+		"timePerOMP": 11.972174999999999,
+		"timePerKSVD": 31.5783
+	},
+	"face_K3_5x5_C1_sig0005": {
+		"timePerIteration": 44.6611,
+		"timePerOMP": 12.514825,
+		"timePerKSVD": 32.146274999999999
+	},
+	"face_K3_5x5_C1_sig001": {
+		"timePerIteration": 44.22135,
+		"timePerOMP": 12.323675,
+		"timePerKSVD": 31.897675
+	},
+	"face_K3_7x7_C1_sig0001": {
+		"timePerIteration": 84.63442500000001,
+		"timePerOMP": 12.4992,
+		"timePerKSVD": 72.135225
+	},
+	"face_K3_7x7_C1_sig0005": {
+		"timePerIteration": 81.646,
+		"timePerOMP": 12.887775,
+		"timePerKSVD": 68.758225
+	},
+	"face_K3_7x7_C1_sig001": {
+		"timePerIteration": 82.27472499999999,
+		"timePerOMP": 12.243775,
+		"timePerKSVD": 70.03094999999999
+	},
+	"face_K3_9x9_C1_sig0001": {
+		"timePerIteration": 192.3384,
+		"timePerOMP": 14.145974999999999,
+		"timePerKSVD": 178.19242500000002
+	},
+	"face_K3_9x9_C1_sig0005": {
+		"timePerIteration": 194.056,
+		"timePerOMP": 14.973725000000002,
+		"timePerKSVD": 179.082275
+	},
+	"face_K3_9x9_C1_sig001": {
+		"timePerIteration": 175.03212499999999,
+		"timePerOMP": 14.719925,
+		"timePerKSVD": 160.3122
+	},
+	"face_K5_5x5_C1_sig0001": {
+		"timePerIteration": 53.095524999999998,
+		"timePerOMP": 20.046075000000003,
+		"timePerKSVD": 33.04944999999999
+	},
+	"face_K5_5x5_C1_sig0005": {
+		"timePerIteration": 51.627175,
+		"timePerOMP": 19.076900000000003,
+		"timePerKSVD": 32.550275
+	},
+	"face_K5_5x5_C1_sig001": {
+		"timePerIteration": 53.320350000000008,
+		"timePerOMP": 20.579774999999999,
+		"timePerKSVD": 32.74057500000001
+	},
+	"face_K5_7x7_C1_sig0001": {
+		"timePerIteration": 89.7168,
+		"timePerOMP": 20.126025,
+		"timePerKSVD": 69.59077500000001
+	},
+	"face_K5_7x7_C1_sig0005": {
+		"timePerIteration": 89.46292500000001,
+		"timePerOMP": 21.5908,
+		"timePerKSVD": 67.87212500000001
+	},
+	"face_K5_7x7_C1_sig001": {
+		"timePerIteration": 93.382225,
+		"timePerOMP": 22.404325,
+		"timePerKSVD": 70.9779
+	},
+	"face_K5_9x9_C1_sig0001": {
+		"timePerIteration": 201.00574999999999,
+		"timePerOMP": 22.096825,
+		"timePerKSVD": 178.90892499999999
+	},
+	"face_K5_9x9_C1_sig0005": {
+		"timePerIteration": 199.72137500000003,
+		"timePerOMP": 23.742299999999998,
+		"timePerKSVD": 175.97907500000003
+	},
+	"face_K5_9x9_C1_sig001": {
+		"timePerIteration": 181.76507499999998,
+		"timePerOMP": 22.256475000000003,
+		"timePerKSVD": 159.50859999999998
+	},
+	"face_K7_5x5_C1_sig0001": {
+		"timePerIteration": 61.8596,
+		"timePerOMP": 28.098275,
+		"timePerKSVD": 33.761325
+	},
+	"face_K7_5x5_C1_sig0005": {
+		"timePerIteration": 60.928425000000007,
+		"timePerOMP": 27.436675,
+		"timePerKSVD": 33.49175
+	},
+	"face_K7_5x5_C1_sig001": {
+		"timePerIteration": 61.88325,
+		"timePerOMP": 28.518550000000006,
+		"timePerKSVD": 33.36469999999999
+	},
+	"face_K7_7x7_C1_sig0001": {
+		"timePerIteration": 98.73025,
+		"timePerOMP": 28.345975,
+		"timePerKSVD": 70.384275
+	},
+	"face_K7_7x7_C1_sig0005": {
+		"timePerIteration": 97.42804999999999,
+		"timePerOMP": 29.890750000000005,
+		"timePerKSVD": 67.53729999999999
+	},
+	"face_K7_7x7_C1_sig001": {
+		"timePerIteration": 102.87525000000001,
+		"timePerOMP": 28.882175,
+		"timePerKSVD": 73.993075
+	},
+	"face_K7_9x9_C1_sig0001": {
+		"timePerIteration": 212.877025,
+		"timePerOMP": 33.248625,
+		"timePerKSVD": 179.6284
+	},
+	"face_K7_9x9_C1_sig0005": {
+		"timePerIteration": 210.23410000000005,
+		"timePerOMP": 31.708499999999999,
+		"timePerKSVD": 178.52560000000006
+	},
+	"face_K7_9x9_C1_sig001": {
+		"timePerIteration": 191.0316,
+		"timePerOMP": 32.555375,
+		"timePerKSVD": 158.476225
+	}
+}
